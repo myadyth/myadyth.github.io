@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>other by mya</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">mya<span class="logo_colour"></span></a></h1>
+          <h2>nothing more</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">home</a></li>
+          <li><a href="art.html">art</a></li>
+          <li><a href="writing.html">writing</a></li>
+          <li class="selected"><a href="other.html">other</a></li>
+          <li><a href="about.html">about</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+       <img class="fill" src="style/siteicon.png" alt="art by @cloud_data00 on twitter" style="width:260px;height:260px">
+        <!-- insert your sidebar items here --> 
+        <h3><b>mya - </b></h3>
+        <h3>internet loving girl</h3>
+        <p>this is where i keep my art, random writing, some stuff about me, and most importantly images of my darling boy mark :3 </p>
+        <p>currently under construction - learning html, css and stuff to make this template look a little bit nicer and more to my taste.</p>
+        <h3>useful Links</h3>	
+<p id="demo1">twitter</p>
+<p id="demo2">telegram</p>
+<p id="demo3">discord</p>
+
+<button onclick="change_text()">click</button>
+
+<script>
+function change_text(){
+     document.getElementById("demo1").innerHTML = "<a href=\"https://twitter.com/myadyth\">twitter.com/myadyth</a>";
+	document.getElementById("demo2").innerHTML = "<a href=\"https://t.me/myadyth\">@myadyth</a>";
+	document.getElementById("demo3").innerHTML = "<a href=\"https://discordapp.com/users/165584451890315264\">mya#4660</a>";
+}
+        </script>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>miscellaneous</h1>
+        <h2>i have nothing else to do with this page - likely going to be random testing and pictures of my cat(s)</h2>
+      </div>
+    </div>
+    <div id="footer">
+	    <p>any time you're hearing this, sister know my heart goes out to you.</p>
+       </div>
+  </div>
+</body>
+</html>
